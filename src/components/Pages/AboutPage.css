@@ -1,0 +1,46 @@
+.about-page {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5.5rem;
+  }
+  
+  .about-intro h1, .about-mission h2, .about-story h2, .about-values h2, .about-call-to-action h2 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    color: #e91e63;
+  }
+  
+  .about-intro p, .about-mission p, .about-story p, .about-values ul, .about-call-to-action p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .about-values ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .about-values ul li {
+    margin-bottom: 10px;
+  }
+  .about-values ul li strong{
+    color: #00000085
+  }
+  .about-call-to-action a {
+    color: #e91e63;
+    text-decoration: none;
+  }
+  
+  .about-call-to-action a:hover {
+    text-decoration: underline;
+  }
+
+  .about-values, .about-intro, .about-mission, .about-story, .about-call-to-action {
+    margin-bottom: 20px;
+    width: 85%;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #fff;
+  }

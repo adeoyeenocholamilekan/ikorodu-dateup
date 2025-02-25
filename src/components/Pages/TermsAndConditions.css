@@ -1,0 +1,46 @@
+.terms-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5.5rem;
+    
+    
+    
+  }
+  
+  .terms-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+    width: 85%;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #fff;
+  }
+  
+  .section h2 {
+    color: #000000 !important;
+    margin-bottom: 10px;
+  }
+  
+  .section p, .section ul {
+    color: #00000075 !important;
+  }
+  
+  .section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .section a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .section a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,21 @@
+.disclaimer-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5.5rem;
+  
+  }
+  
+  .disclaimer-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .section p {
+    color: #666;
+  }
+  
